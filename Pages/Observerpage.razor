@@ -1,0 +1,32 @@
+﻿@page "/Observer"
+
+<h3>Observer</h3>
+
+<div style=@mySub.style>
+    <p>test</p>
+</div>
+
+<button class="btn btn-primary" @onclick="updateSubs">Click me</button>
+
+@code {
+    Data.Publisher myPub = new Data.Publisher();
+
+    Data.Subscriber mySub = new Data.Subscriber();
+
+    protected override void OnInitialized()
+    {
+        myPub.subscribers.Add(mySub);
+    }
+
+    void updateSubs(){
+        myPub.updateSubscribers();
+
+        /*
+        if (mySub.state){
+            subStyle="background-color: pink;";
+        } else {
+            subStyle="background-color: blue;";
+        }
+        */
+    }
+}
