@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -1355704230,
-        "Kind": "Components.Component",
-        "Name": "Observer.Pages.Counter",
-        "AssemblyName": "Observer",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Observer.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -452987488,
-        "Kind": "Components.Component",
-        "Name": "Observer.Pages.Counter",
-        "AssemblyName": "Observer",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Observer.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Observer.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1932872867,
         "Kind": "Components.Component",
         "Name": "Observer.Pages.Observerpage",
@@ -140,6 +107,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Observer.Pages.Observerpage",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1355704230,
+        "Kind": "Components.Component",
+        "Name": "Observer.Pages.Counter",
+        "AssemblyName": "Observer",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Observer.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -452987488,
+        "Kind": "Components.Component",
+        "Name": "Observer.Pages.Counter",
+        "AssemblyName": "Observer",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Observer.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Observer.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
