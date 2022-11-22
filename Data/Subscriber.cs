@@ -6,7 +6,7 @@ class Subscriber{
     public Subscriber(){
         style="background-color: red";
     }
-    public void update(){
+    public virtual void update(){
 
         state = !state;
 
@@ -15,5 +15,16 @@ class Subscriber{
         else
             style = "background-color: orange;";
 
+    }
+}
+
+class Sub2 : Subscriber {
+    public override void update(){
+        state = !state;
+
+        if (state)
+            style = "background-color: orange;";
+        else
+            style = "background-color: grey;";
     }
 }
